@@ -15,12 +15,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - run: |
-      node -v
-      npm -v
-      python --version
-      java --version
-      go version
-      mvn -version
-      docker version
-      docker-compose -v
-      git version
+      echo build
